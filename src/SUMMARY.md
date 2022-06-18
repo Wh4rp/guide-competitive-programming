@@ -4,6 +4,7 @@
 
 # Set up
 - [C++](./Set%20up/cpp.md)
+- [Template](./Set%20up/template.md)
 
 # Técnicas de programación
 - [Recursion](./Tecnicas/recursion.md)
