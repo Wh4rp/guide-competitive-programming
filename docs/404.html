@@ -84,7 +84,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introducción</a></li><li class="chapter-item expanded affix "><li class="part-title">Técnicas de programación</li><li class="chapter-item expanded "><a href="1/recursion.html"><strong aria-hidden="true">1.</strong> Recursion</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="1/fibonacci.html"><strong aria-hidden="true">1.1.</strong> Secuencia de fibonacci</a></li><li class="chapter-item expanded "><a href="1/subconjuntos.html"><strong aria-hidden="true">1.2.</strong> Generar subconjuntos</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introducción</a></li><li class="chapter-item expanded affix "><li class="part-title">Set up</li><li class="chapter-item expanded "><a href="Set up/cpp.html"><strong aria-hidden="true">1.</strong> C++</a></li><li class="chapter-item expanded "><a href="Set up/template.html"><strong aria-hidden="true">2.</strong> Template</a></li><li class="chapter-item expanded affix "><li class="part-title">Técnicas de programación</li><li class="chapter-item expanded "><a href="Tecnicas/recursion.html"><strong aria-hidden="true">3.</strong> Recursion</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Tecnicas/fibonacci.html"><strong aria-hidden="true">3.1.</strong> Secuencia de fibonacci</a></li><li class="chapter-item expanded "><a href="Tecnicas/subconjuntos.html"><strong aria-hidden="true">3.2.</strong> Generar subconjuntos</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -118,6 +118,9 @@
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Wh4rp/guide-competitive-programming" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
 
                     </div>
@@ -165,22 +168,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
