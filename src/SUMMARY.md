@@ -2,7 +2,10 @@
 
 [Introducción](README.md)
 
+# Set up
+- [C++](./Set%20up/cpp.md)
+
 # Técnicas de programación
-- [Recursion](./1/recursion.md)
-  - [Secuencia de fibonacci](./1/fibonacci.md)
-  - [Generar subconjuntos](./1/subconjuntos.md)
+- [Recursion](./Tecnicas/recursion.md)
+  - [Secuencia de fibonacci](./Tecnicas/fibonacci.md)
+  - [Generar subconjuntos](./Tecnicas/subconjuntos.md)
