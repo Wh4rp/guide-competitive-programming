@@ -7,6 +7,7 @@ title = "Guía Programación Competitiva"
 
 [output.html]
 mathjax-support = true
+git-repository-url = "https://github.com/Wh4rp/guide-competitive-programming"
 
 [output.html.playground]
 languages = ["rust", "python", "cpp"]
